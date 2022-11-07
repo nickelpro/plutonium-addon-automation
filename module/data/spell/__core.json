@@ -133,21 +133,26 @@
 				{
 					"changes": [
 						{
-							"key": "data.traits.dr.value",
+							"key": "system.traits.dr.value",
 							"mode": "CUSTOM",
-							"value": "physical",
-							"priority": "20"
+							"value": "bludgeoning",
+							"priority": 20
+						},
+						{
+							"key": "system.traits.dr.value",
+							"mode": "CUSTOM",
+							"value": "piercing",
+							"priority": 20
+						},
+						{
+							"key": "system.traits.dr.value",
+							"mode": "CUSTOM",
+							"value": "slashing",
+							"priority": 20
 						}
 					],
 					"duration": {
-						"seconds": 7
-					},
-					"flags": {
-						"dae": {
-							"specialDuration": [
-								"turnEndSource"
-							]
-						}
+						"rounds": 1
 					}
 				}
 			]
